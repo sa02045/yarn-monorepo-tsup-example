@@ -1,0 +1,12 @@
+{
+  "name": "@sa02045/math",
+  "packageManager": "yarn@4.2.2",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "5.4.3",
+    "vitest": "^1.6.0"
+  },
+  "scripts": {
+    "build": "tsup"
+  }
+}
