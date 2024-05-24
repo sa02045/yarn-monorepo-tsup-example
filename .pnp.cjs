@@ -32,7 +32,8 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@changesets/cli", "npm:2.27.3"]\
+          ["@changesets/cli", "npm:2.27.3"],\
+          ["typescript", "patch:typescript@npm%3A5.4.3#optional!builtin<compat/typescript>::version=5.4.3&hash=5adc0c"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -4261,7 +4262,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["root-workspace-0b6124", "workspace:."],\
-          ["@changesets/cli", "npm:2.27.3"]\
+          ["@changesets/cli", "npm:2.27.3"],\
+          ["typescript", "patch:typescript@npm%3A5.4.3#optional!builtin<compat/typescript>::version=5.4.3&hash=5adc0c"]\
         ],\
         "linkType": "SOFT"\
       }]\
