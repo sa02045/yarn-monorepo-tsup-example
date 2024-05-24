@@ -4,7 +4,8 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "yarn workspaces foreach --all run build"
+    "build": "yarn workspaces foreach --all run build",
+    "test": "yarn workspaces foreach --all run test"
   },
   "dependencies": {
     "@changesets/cli": "^2.27.3"
