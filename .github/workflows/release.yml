@@ -20,3 +20,8 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --immutable
+
+      - name: version and publish
+        uses: changesets/action@v1
+        with:
+          version: yarn changeset version
