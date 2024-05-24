@@ -9,5 +9,8 @@
   "scripts": {
     "build": "tsup",
     "test": "vitest"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
